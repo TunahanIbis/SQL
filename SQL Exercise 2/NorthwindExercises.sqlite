@@ -1,0 +1,99 @@
+-- Q1: Orders delivered to Rio de Janeiro by United Package
+
+SELECT OrderID AS RioOrdersFromUnitedPackage
+FROM Orders
+WHERE ShipperID = (SELECT ShipperID
+FROM Shippers
+WHERE ShipperName = 'United Package')
+AND CustomerID = (SELECT CustomerID
+FROM Customers
+WHERE City LIKE '%Rio de Janeiro%');
+
+-- Q2: Employees between the ages of 60 and 65.
+
+-- Version 1: With Decimal
+
+SELECT FirstName || ' ' || LastName AS EmployeeName, (julianday('2024-08-08') - julianday(BirthDate)) / 365.25 AS Age
+FROM Employees
+WHERE (julianday('2024-08-08') - julianday(BirthDate)) / 365.25 BETWEEN 60 AND 65;
+
+-- Version 2: Without decimal
+
+SELECT FirstName || ' ' || LastName AS EmployeeName, 2024 - (substr(BirthDate, 1, 4)) AS Age
+FROM Employees
+WHERE  2024 - (substr(BirthDate, 1, 4)) BETWEEN 60 AND 65;
+
+-- Q3: Orders delivered to Brazil.
+
+-- Version 1: Without JOIN
+
+SELECT OrderID AS OrdersToBrazil
+FROM Orders
+WHERE CustomerID IN (SELECT CustomerID
+FROM Customers
+WHERE Country = 'Brazil');
+
+-- Version 2: With JOIN
+
+SELECT O.OrderID AS Orders, C.Country AS 'To'
+FROM Orders O
+JOIN Customers C ON O.CustomerID = C.CustomerID
+WHERE C.Country = 'Brazil';
+
+-- Q4: Employees selling Tourtière or Tunnbröd products.
+
+SELECT FirstName || ' ' || LastName AS EmployeesThatSoldTourtièreAndTunnbröd
+FROM Employees
+WHERE EmployeeID IN (SELECT EmployeeID
+FROM Orders
+WHERE OrderID IN (SELECT OrderID
+FROM OrderDetails
+WHERE ProductID IN (SELECT ProductID
+FROM Products
+WHERE ProductName = 'Tourtière' 
+OR ProductName = 'Tunnbröd')));
+
+-- Q5: Orders shipped from Singapore to Germany.
+
+SELECT DISTINCT O.OrderID AS Orders, S.Country AS 'From', C.Country AS 'To'
+FROM Orders O
+JOIN Customers C ON O.CustomerID = C.CustomerID
+JOIN OrderDetails OD ON O.OrderID = OD.OrderID
+JOIN Products P ON OD.ProductID = P.ProductID
+JOIN Suppliers S ON P.SupplierID = S.SupplierID
+WHERE C.Country = 'Germany'
+AND S.Country = 'Singapore';
+
+-- Q6: Customers who have never purchased a product.
+
+SELECT C.CustomerName AS CustomersWithZeroOrders, COUNT(O.OrderID) AS TotalOrder
+FROM Customers C
+LEFT JOIN Orders O 
+ON C.CustomerID = O.CustomerID
+GROUP BY C.CustomerName
+HAVING COUNT(O.OrderID) = 0;
+
+-- Q7: Orders with a total basket amount lower or higher than 25 units.
+
+SELECT OrderID, SUM(Quantity) AS TotalQuantity
+FROM OrderDetails
+GROUP BY OrderID
+HAVING SUM(Quantity) != 25
+ORDER BY TotalQuantity DESC;
+
+-- Q8: The most expensive item(s) in each category and its price.
+
+SELECT C.CategoryName, P.ProductName AS MostExpensiveProduct, MAX(P.Price) AS Price
+FROM Categories C
+JOIN Products P 
+ON C.CategoryID = P.CategoryID
+GROUP BY C.CategoryName
+ORDER BY Price DESC;
+
+--Q9: Which employee entered how many orders?
+
+SELECT E.EmployeeID, E.FirstName || ' ' || LastName AS EmployeeName, COUNT(*) AS TotalOrder
+FROM Employees E
+JOIN Orders O
+ON E.EmployeeID = O.EmployeeID
+GROUP BY E.EmployeeID;
