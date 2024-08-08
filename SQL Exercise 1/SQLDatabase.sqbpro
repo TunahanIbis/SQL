@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="SQLDatabase.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="1"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="637"/><column_width id="4" width="0"/><expanded_item id="2" parent="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><table title="Movies" custom_title="0" dock_id="22" table="4,6:mainMovies"/><table title="CategoryID" custom_title="0" dock_id="21" table="4,10:mainCategoryID"/><table title="CategoryID" custom_title="0" dock_id="20" table="4,10:mainCategoryID"/><table title="CategoryID" custom_title="0" dock_id="19" table="4,10:mainCategoryID"/><table title="Movies" custom_title="0" dock_id="18" table="4,6:mainMovies"/><table title="Movies" custom_title="0" dock_id="17" table="4,6:mainMovies"/><table title="Movies" custom_title="0" dock_id="16" table="4,6:mainMovies"/><table title="Movies" custom_title="0" dock_id="15" table="4,6:mainMovies"/><table title="Week Info" custom_title="0" dock_id="14" table="4,9:mainWeek Info"/><table title="Movies" custom_title="0" dock_id="13" table="4,6:mainMovies"/><table title="Week Info" custom_title="0" dock_id="12" table="4,9:mainWeek Info"/><table title="Movies" custom_title="0" dock_id="9" table="4,6:mainMovies"/><table title="Movies" custom_title="0" dock_id="8" table="4,6:mainMovies"/><table title="Movies" custom_title="0" dock_id="7" table="4,6:mainMovies"/><table title="Week Info" custom_title="0" dock_id="6" table="4,9:mainWeek Info"/><table title="Movies" custom_title="0" dock_id="5" table="4,6:mainMovies"/><table title="Movies" custom_title="0" dock_id="4" table="4,6:mainMovies"/><table title="Movies" custom_title="0" dock_id="3" table="4,6:mainMovies"/><table title="Movies" custom_title="0" dock_id="2" table="4,6:mainMovies"/><table title="Movies" custom_title="0" dock_id="1" table="4,6:mainMovies"/><dock_state state="000000ff00000000fd000000010000000200000415000002b6fc0100000001fc00000000000004150000012700fffffffa000000130100000014fb000000160064006f0063006b00420072006f00770073006500310100000000ffffffff0000012700fffffffb000000160064006f0063006b00420072006f00770073006500320100000000ffffffff0000012700fffffffb000000160064006f0063006b00420072006f00770073006500330100000000ffffffff0000012700fffffffb000000160064006f0063006b00420072006f00770073006500340100000000ffffffff0000012700fffffffb000000160064006f0063006b00420072006f00770073006500350100000000ffffffff0000012700fffffffb000000160064006f0063006b00420072006f00770073006500360100000000ffffffff0000012100fffffffb000000160064006f0063006b00420072006f00770073006500370100000000ffffffff0000012700fffffffb000000160064006f0063006b00420072006f00770073006500380100000000ffffffff0000012700fffffffb000000160064006f0063006b00420072006f00770073006500390100000000ffffffff0000012700fffffffb000000180064006f0063006b00420072006f007700730065003100320100000000ffffffff0000012100fffffffb000000180064006f0063006b00420072006f007700730065003100330100000000ffffffff0000012700fffffffb000000180064006f0063006b00420072006f007700730065003100340100000000ffffffff0000012100fffffffb000000180064006f0063006b00420072006f007700730065003100350100000000ffffffff0000012700fffffffb000000180064006f0063006b00420072006f007700730065003100360100000000ffffffff0000012700fffffffb000000180064006f0063006b00420072006f007700730065003100370100000000ffffffff0000012700fffffffb000000180064006f0063006b00420072006f007700730065003100380100000000ffffffff0000012700fffffffb000000180064006f0063006b00420072006f007700730065003100390100000000ffffffff0000011b00fffffffb000000180064006f0063006b00420072006f007700730065003200300100000000ffffffff0000011b00fffffffb000000180064006f0063006b00420072006f007700730065003200310100000000ffffffff0000011b00fffffffb000000180064006f0063006b00420072006f007700730065003200320100000000ffffffff0000012700ffffff000004150000000000000004000000040000000800000008fc00000000"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="CategoryID" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="58"/><column index="2" value="79"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="MovieAndCategoryMatch" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="62"/><column index="2" value="79"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="MovieID" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="195"/><column index="2" value="62"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Movies" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="195"/><column index="2" value="300"/><column index="3" value="226"/><column index="4" value="56"/><column index="5" value="63"/><column index="6" value="52"/><column index="7" value="40"/><column index="8" value="85"/><column index="9" value="84"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Session Info" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort><column index="0" mode="1"/></sort><column_widths><column index="1" value="56"/><column index="2" value="63"/><column index="3" value="52"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Week Info" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="40"/><column index="2" value="85"/><column index="3" value="84"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 2">
+INSERT INTO &quot;Week Info&quot; (Week, WeekFirstDay, WeekLastDay)
+VALUES (&quot;W32&quot;, &quot;8/8/2016&quot;, &quot;8/14/2016&quot;);
+
+INSERT INTO &quot;Week Info&quot; (Week, WeekFirstDay, WeekLastDay)
+VALUES (&quot;W32&quot;, &quot;8/8/2016&quot;, &quot;8/14/2016&quot;);
+
+INSERT INTO &quot;Week Info&quot; (Week, WeekFirstDay, WeekLastDay)
+VALUES (&quot;W32&quot;, &quot;8.08.2016&quot;, &quot;14.08.2016&quot;);
+
+INSERT INTO &quot;Week Info&quot; (Week, WeekFirstDay, WeekLastDay)
+VALUES (&quot;W32&quot;, &quot;8.08.2016&quot;, &quot;14.08.2016&quot;);
+
+INSERT INTO &quot;Week Info&quot; (Week, WeekFirstDay, WeekLastDay)
+VALUES (&quot;W32&quot;, &quot;8.08.2016&quot;, &quot;14.08.2016&quot;);
+
+INSERT INTO &quot;Week Info&quot; (Week, WeekFirstDay, WeekLastDay)
+VALUES (&quot;W33&quot;, &quot;15.08.2016&quot;, &quot;21.08.2016&quot;);
+
+INSERT INTO &quot;Week Info&quot; (Week, WeekFirstDay, WeekLastDay)
+VALUES (&quot;W33&quot;, &quot;15.08.2016&quot;, &quot;21.08.2016&quot;);
+
+INSERT INTO &quot;Week Info&quot; (Week, WeekFirstDay, WeekLastDay)
+VALUES (&quot;W33&quot;, &quot;15.08.2016&quot;, &quot;21.08.2016&quot;);
+
+INSERT INTO &quot;Week Info&quot; (Week, WeekFirstDay, WeekLastDay)
+VALUES (&quot;W33&quot;, &quot;15.08.2016&quot;, &quot;21.08.2016&quot;);
+
+INSERT INTO &quot;Week Info&quot; (Week, WeekFirstDay, WeekLastDay)
+VALUES (&quot;W33&quot;, &quot;15.08.2016&quot;, &quot;21.08.2016&quot;);
+
+INSERT INTO &quot;Week Info&quot; (Week, WeekFirstDay, WeekLastDay)
+VALUES (&quot;W34&quot;, &quot;22.08.2016&quot;, &quot;28.08.2016&quot;);
+
+INSERT INTO &quot;Week Info&quot; (Week, WeekFirstDay, WeekLastDay)
+VALUES (&quot;W34&quot;, &quot;22.08.2016&quot;, &quot;28.08.2016&quot;);
+
+INSERT INTO &quot;Week Info&quot; (Week, WeekFirstDay, WeekLastDay)
+VALUES (&quot;W34&quot;, &quot;22.08.2016&quot;, &quot;28.08.2016&quot;);
+
+INSERT INTO &quot;Week Info&quot; (Week, WeekFirstDay, WeekLastDay)
+VALUES (&quot;W34&quot;, &quot;22.08.2016&quot;, &quot;28.08.2016&quot;);
+
+
+</sql><sql name="SQL 3">INSERT INTO &quot;MovieID&quot; (Movie, Movie_ID)
+VALUES (&quot;The Shawshank Redempiton&quot;, 1);
+
+INSERT INTO &quot;MovieID&quot; (Movie, Movie_ID)
+VALUES (&quot;Back to the Future&quot;, 2);
+
+INSERT INTO &quot;MovieID&quot; (Movie, Movie_ID)
+VALUES (&quot;Forrest Gump&quot;, 3);
+
+INSERT INTO &quot;MovieID&quot; (Movie, Movie_ID)
+VALUES (&quot;Fight Club&quot;, 4);
+
+INSERT INTO &quot;MovieID&quot; (Movie, Movie_ID)
+VALUES (&quot;The Lion King&quot;, 5);
+
+INSERT INTO &quot;MovieID&quot; (Movie, Movie_ID)
+VALUES (&quot;Back to the Future 2&quot;, 6);
+
+INSERT INTO &quot;MovieID&quot; (Movie, Movie_ID)
+VALUES (&quot;The Truman Show&quot;, 7);
+
+INSERT INTO &quot;MovieID&quot; (Movie, Movie_ID)
+VALUES (&quot;Ice Age&quot;, 8);
+
+INSERT INTO &quot;MovieID&quot; (Movie, Movie_ID)
+VALUES (&quot;The Green Mile&quot;, 9);
+
+INSERT INTO &quot;MovieID&quot; (Movie, Movie_ID)
+VALUES (&quot;Back to the Future 3&quot;, 10);
+
+INSERT INTO &quot;MovieID&quot; (Movie, Movie_ID)
+VALUES (&quot;The Matrix&quot;, 11);
+</sql><sql name="SQL 4">INSERT INTO &quot;CategoryID&quot; (Category, Category_ID)
+VALUES (&quot;Crime&quot;, 1);
+
+INSERT INTO &quot;CategoryID&quot; (Category, Category_ID)
+VALUES (&quot;Drama&quot;, 2);
+
+INSERT INTO &quot;CategoryID&quot; (Category, Category_ID)
+VALUES (&quot;Adventure&quot;, 3);
+
+INSERT INTO &quot;CategoryID&quot; (Category, Category_ID)
+VALUES (&quot;Comedy&quot;, 4);
+
+INSERT INTO &quot;CategoryID&quot; (Category, Category_ID)
+VALUES (&quot;Sci-Fi&quot;, 5);
+
+INSERT INTO &quot;CategoryID&quot; (Category, Category_ID)
+VALUES (&quot;Animation&quot;, 6);
+
+INSERT INTO &quot;CategoryID&quot; (Category, Category_ID)
+VALUES (&quot;Fantasy&quot;, 7);
+
+INSERT INTO &quot;CategoryID&quot; (Category, Category_ID)
+VALUES (&quot;Action&quot;, 8);</sql><sql name="SQL 5">INSERT INTO &quot;MovieAndCategoryMatch&quot; (Movie_ID, Category_ID)
+VALUES (1, 1);
+
+INSERT INTO &quot;MovieAndCategoryMatch&quot; (Movie_ID, Category_ID)
+VALUES (1, 2);
+
+INSERT INTO &quot;MovieAndCategoryMatch&quot; (Movie_ID, Category_ID)
+VALUES (2, 3);
+
+INSERT INTO &quot;MovieAndCategoryMatch&quot; (Movie_ID, Category_ID)
+VALUES (2, 4);
+
+INSERT INTO &quot;MovieAndCategoryMatch&quot; (Movie_ID, Category_ID)
+VALUES (2, 5);
+
+INSERT INTO &quot;MovieAndCategoryMatch&quot; (Movie_ID, Category_ID)
+VALUES (3, 4);
+
+INSERT INTO &quot;MovieAndCategoryMatch&quot; (Movie_ID, Category_ID)
+VALUES (3, 2);
+
+INSERT INTO &quot;MovieAndCategoryMatch&quot; (Movie_ID, Category_ID)
+VALUES (4, 2);
+
+INSERT INTO &quot;MovieAndCategoryMatch&quot; (Movie_ID, Category_ID)
+VALUES (5, 6);
+
+INSERT INTO &quot;MovieAndCategoryMatch&quot; (Movie_ID, Category_ID)
+VALUES (5, 3);
+
+INSERT INTO &quot;MovieAndCategoryMatch&quot; (Movie_ID, Category_ID)
+VALUES (5, 2);
+
+INSERT INTO &quot;MovieAndCategoryMatch&quot; (Movie_ID, Category_ID)
+VALUES (6, 3);
+
+INSERT INTO &quot;MovieAndCategoryMatch&quot; (Movie_ID, Category_ID)
+VALUES (6, 4);
+
+INSERT INTO &quot;MovieAndCategoryMatch&quot; (Movie_ID, Category_ID)
+VALUES (6, 5);
+
+INSERT INTO &quot;MovieAndCategoryMatch&quot; (Movie_ID, Category_ID)
+VALUES (7, 4);
+
+INSERT INTO &quot;MovieAndCategoryMatch&quot; (Movie_ID, Category_ID)
+VALUES (7, 2);
+
+INSERT INTO &quot;MovieAndCategoryMatch&quot; (Movie_ID, Category_ID)
+VALUES (7, 5);
+
+INSERT INTO &quot;MovieAndCategoryMatch&quot; (Movie_ID, Category_ID)
+VALUES (8, 6);
+
+INSERT INTO &quot;MovieAndCategoryMatch&quot; (Movie_ID, Category_ID)
+VALUES (8, 3);
+
+INSERT INTO &quot;MovieAndCategoryMatch&quot; (Movie_ID, Category_ID)
+VALUES (8, 4);
+
+INSERT INTO &quot;MovieAndCategoryMatch&quot; (Movie_ID, Category_ID)
+VALUES (9, 1);
+
+INSERT INTO &quot;MovieAndCategoryMatch&quot; (Movie_ID, Category_ID)
+VALUES (9, 2);
+
+INSERT INTO &quot;MovieAndCategoryMatch&quot; (Movie_ID, Category_ID)
+VALUES (9, 7);
+
+INSERT INTO &quot;MovieAndCategoryMatch&quot; (Movie_ID, Category_ID)
+VALUES (10, 3);
+
+INSERT INTO &quot;MovieAndCategoryMatch&quot; (Movie_ID, Category_ID)
+VALUES (10, 4);
+
+INSERT INTO &quot;MovieAndCategoryMatch&quot; (Movie_ID, Category_ID)
+VALUES (10, 5);
+
+INSERT INTO &quot;MovieAndCategoryMatch&quot; (Movie_ID, Category_ID)
+VALUES (11, 8);
+
+INSERT INTO &quot;MovieAndCategoryMatch&quot; (Movie_ID, Category_ID)
+VALUES (11, 5);</sql><sql name="SQL 6">SELECT *
+FROM MovieID
+WHERE Movie_ID &gt; 4;</sql><current_tab id="4"/></tab_sql></sqlb_project>
