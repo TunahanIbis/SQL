@@ -7,7 +7,7 @@ GROUP BY rating;
 -- Q2) When we group the films in the film table according to the replacement_cost column...
 -- ... list the replacement_cost value and the corresponding number of films if the number of films is more than 50.
 
-SELECT replacement_cost , COUNT(*) AS FilmCount
+SELECT replacement_cost, COUNT(*) AS FilmCount
 FROM film
 GROUP BY replacement_cost
 HAVING COUNT(*) > 50;
