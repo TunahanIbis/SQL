@@ -85,7 +85,7 @@ UPDATE employee
 SET birthday = '1999-12-31'
 WHERE id = 10;
 
--- Q5) Let's perform 5 DELETE operations that will delete the relevant row for each column.
+-- Q4) Let's perform 5 DELETE operations that will delete the relevant row for each column.
 
 -- Delete record based on id
 DELETE FROM employee
