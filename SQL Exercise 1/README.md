@@ -1,5 +1,5 @@
 # SQL Exercise 1
-* I have followed some normalization steps by giving movies and categories unique ID numbers.
+* I have followed some normalization steps by giving unique ID numbers to movies and categories .
 
 * Thus, it became easier to analyze them without viewing seperate tables all the time.
 <br>
