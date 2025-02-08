@@ -1,2 +1,2 @@
 # SQL
-Some SQL exercises that I have done on databases such as Northwind.
+Some SQL exercises and projects that I have done.
